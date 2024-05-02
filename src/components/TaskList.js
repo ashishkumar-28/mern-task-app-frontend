@@ -153,7 +153,7 @@ const setToComplete=async(task)=>{
         )
        }
        {
-        !isLoading && tasks.length == 0 ? (
+        !isLoading && tasks.length === 0 ? (
             <p className="--py">No task added. Please add atask</p>
         ) :(
             <>
